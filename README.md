@@ -1,8 +1,8 @@
-# The Club
+# Le Club Ma Gueule !
 
 > Pair programming avec @LisaLou & @LeaLp
 
-## Lien vers le site en ligne <a href="https://the-clubb-magueule.herokuapp.com/">The Club !</a> 
+## Lien vers le site en ligne <a href="https://the-clubb-magueule.herokuapp.com/">The Clubb Magueule !</a> 
 
 ---------------------------------
 
