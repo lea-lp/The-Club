@@ -1,0 +1,28 @@
+</br>
+
+
+<div class="row navbar">
+
+<div class="jumbotron col-8">
+  <h1 class="display-3">Wesh <%= @first_name %> ! </h1>
+  <p class="lead">Tu entres dans l'univers sombre et impitoyable ...</p>
+  <hr class="my-4">
+  <h2><strong>DU CLUUUUUUB !!!</strong></h2>
+</br>
+<p class="lead">
+    <a class="btn btn-warning btn-lg" href="<%= club_path %>" role="button">Azy viens c'est par ici</a>
+  </p>
+</div>
+
+<div class="card col-4">
+  <h3 class="card-header">Mon compte</h3>
+  <div class="card-body">
+    <h5 class="card-title"><%= @current_user.first_name %> <%= @current_user.last_name %></h5>
+    <h6 class="card-subtitle text-muted"><%= @current_user.email %></h6>
+  </div>
+  <%= image_tag "alone.jpg" %>
+  <div class="card-body">
+    <p class="card-text">Ta tête quand ton site est enfin en ligne sur Heroku mouhahaha</p>
+    <h6 class="card-subtitle text-muted">Numéro d'utilisateur : <%= @current_user.id %></h6>
+  </div>
+</div>

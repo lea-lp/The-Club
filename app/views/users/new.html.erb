@@ -1,0 +1,30 @@
+</br>
+<h1>Inscription</h1>
+</br>
+
+  <div class="form-row">
+
+    <%= form_for @user, url: {action: "create"}, html: {class: "col-md-6"} do |f| %>
+        <div class="col-md-6">
+          <div class="form-group">
+            <%= f.label "Prénom"%>
+            <%= f.text_field :first_name, placeholder: 'ton blaze', class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label "Nom"%>
+            <%= f.text_field :last_name, placeholder: 'ton nom de famille de bourgeois de m***e', class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label "Email"%>
+            <%= f.text_field :email, placeholder: "si c'est kikoudu75 j'te tue", class: "form-control"%>
+          </div>
+        </div>
+</br>
+      <div class="col-md-6 form-group">
+        <%= f.submit "Valider", class: "btn btn-success col-md-12" %>
+      </div>
+    <% end %>
+  </div>
+</div>
